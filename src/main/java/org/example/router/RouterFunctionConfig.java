@@ -14,7 +14,6 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 
 @Configuration
 public class RouterFunctionConfig {
-
     @Bean
     public RouterFunction<ServerResponse> router(SampleHandlerFunction handlerFunction) {
 
